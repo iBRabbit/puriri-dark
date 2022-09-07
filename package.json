@@ -1,0 +1,21 @@
+{
+  "name": "puriri-dark",
+  "displayName": "Puriri",
+  "description": "Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Puriri Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Puriri Dark-color-theme.json"
+      }
+    ]
+  }
+}
