@@ -40,12 +40,21 @@
             }
         },
         {
-            "name": "Meta",
-            "scope": "meta",
+            "name": "Meta Function Call",
+            "scope": "meta.function-call",
             "settings": {
-                "foreground": "#f8f8f0"
+                "foreground": "#19D1E5"
             }
         },
+        
+        {
+            "name": "Meta Function Params",
+            "scope": ["meta.function-call.arguments.python", "meta.function-call.pythonsource.python"],
+            "settings": {
+                "foreground": "#E1E1E6"
+            }
+        },
+
         {
             "name": "Number",
             "scope": "constant.numeric",
